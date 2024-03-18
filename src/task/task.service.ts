@@ -8,7 +8,7 @@ export class TaskService {
 
   private alltasks: taskEntity[] =[{
     id: 1,
-    tittle: "comprar cosas en el D1",
+    tittle: "Renovación",
     description: "obviamente, comprar cosas en el D1.",
     status: taskStatus.PENDING,
   }]
