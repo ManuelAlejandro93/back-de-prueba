@@ -1,5 +1,3 @@
-import {IsString, MinLength} from "class-validator";
-
 export enum taskStatus{
   PENDING= "PENDING",
   INPROGRESS= "INPROGRESS",
