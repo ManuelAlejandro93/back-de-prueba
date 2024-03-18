@@ -1,9 +1,11 @@
 import { Module } from '@nestjs/common';
 import { TaskModule } from './task/task.module';
+import { UsuariosService } from './usuarios/usuarios.service';
+import { UsuariosModule } from './usuarios/usuarios.module';
 
 @Module({
-  imports: [TaskModule],
+  imports: [TaskModule, UsuariosModule],
   controllers: [],
-  providers: [],
+  providers: [UsuariosService],
 })
 export class AppModule {}
