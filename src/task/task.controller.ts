@@ -19,8 +19,6 @@ export class TaskController {
   @Delete(':id')
     deleteATask(@Param('id') id:string){
       return this.taskService.deleteATask(id)
-
-      //podría crear un metodo aquí mismo en la clase para buscar en la db.
     }
 
     @Patch(':id')
