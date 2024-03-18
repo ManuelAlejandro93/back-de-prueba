@@ -15,6 +15,7 @@ export class UsuariosController {
   @Get()
   findAll() {
     return this.usuariosService.findAll();
+    return 'gorda';
   }
 
   @Get(':id')
